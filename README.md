@@ -8,9 +8,9 @@
 [![npm version](https://img.shields.io/npm/v/supabase-tanstack-query-codegen.svg)](https://www.npmjs.com/package/supabase-tanstack-query-codegen) [![npm](https://img.shields.io/npm/dt/supabase-tanstack-query-codegen.svg)](https://www.npmjs.com/package/supabase-tanstack-query-codegen) 
  [![Known Vulnerabilities](https://snyk.io/test/github/barrymichaeldoyle/supabase-tanstack-query-codegen/badge.svg)](https://snyk.io/test/github/barrymichaeldoyle/supabase-tanstack-query-codegen) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-# Supabase React Query Codegen 🚀
+# Supabase TanStack Query Codegen 🚀
 
-A CLI tool to automatically generate React Query hooks and TypeScript types for your Supabase Database, streamlining data fetching and enhancing developer productivity.
+A CLI tool to automatically generate TanStack Query hooks and TypeScript types for your Supabase Database, streamlining data fetching and enhancing developer productivity.
 
 ## Table of Contents  📚
 
@@ -24,7 +24,7 @@ A CLI tool to automatically generate React Query hooks and TypeScript types for 
 
 ## Features ⭐️
 
-- Automatically generates TypeScript types and React Query hooks for your Supabase database.
+- Automatically generates TypeScript types and TanStack Query hooks for your Supabase database.
 - Reduces manual work and the likelihood of errors.
 - Increases developer productivity by providing ready-to-use hooks for fetching data.
 
