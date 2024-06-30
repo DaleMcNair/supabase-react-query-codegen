@@ -5,8 +5,8 @@
   </picture>
 </p>
 
-[![npm version](https://img.shields.io/npm/v/supabase-react-query-codegen.svg)](https://www.npmjs.com/package/supabase-react-query-codegen) [![npm](https://img.shields.io/npm/dt/supabase-react-query-codegen.svg)](https://www.npmjs.com/package/supabase-react-query-codegen) 
- [![Known Vulnerabilities](https://snyk.io/test/github/barrymichaeldoyle/supabase-react-query-codegen/badge.svg)](https://snyk.io/test/github/barrymichaeldoyle/supabase-react-query-codegen) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/supabase-tanstack-query-codegen.svg)](https://www.npmjs.com/package/supabase-tanstack-query-codegen) [![npm](https://img.shields.io/npm/dt/supabase-tanstack-query-codegen.svg)](https://www.npmjs.com/package/supabase-tanstack-query-codegen) 
+ [![Known Vulnerabilities](https://snyk.io/test/github/barrymichaeldoyle/supabase-tanstack-query-codegen/badge.svg)](https://snyk.io/test/github/barrymichaeldoyle/supabase-tanstack-query-codegen) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # Supabase React Query Codegen 🚀
 
@@ -33,13 +33,13 @@ A CLI tool to automatically generate React Query hooks and TypeScript types for 
 Install the package globally using npm:
 
 ```bash
-npm install -g supabase-react-query-codegen
+npm install -g supabase-tanstack-query-codegen
 ```
 
 Or with Yarn:
 
 ```bash
-yarn global add supabase-react-query-codegen
+yarn global add supabase-tanstack-query-codegen
 ```
 
 ## Usage 🛠️
@@ -50,7 +50,7 @@ yarn global add supabase-react-query-codegen
 supabase gen types typescript --project-id "<your-project-id>" --schema public > path/to/types.ts
 ```
 
-2. Create a `supabase-react-query-codegen.config.json` file with the following properties:
+2. Create a `supabase-tanstack-query-codegen.config.json` file with the following properties:
 ```json5
 {
   // required
@@ -67,7 +67,7 @@ supabase gen types typescript --project-id "<your-project-id>" --schema public >
 3. Run the `generate` command, passing in the required arguments:
 
 ```bash
-npx supabase-react-query-codegen generate supabase-react-query-codegen.config.json
+npx supabase-tanstack-query-codegen generate supabase-tanstack-query-codegen.config.json
 ```
 
 ## Generated Types 🚧
